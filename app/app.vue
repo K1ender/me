@@ -1,3 +1,7 @@
+<script setup lang="ts">
+
+</script>
+
 <template>
   <NuxtLayout>
     <NuxtPage></NuxtPage>
@@ -6,6 +10,6 @@
   <NuxtRouteAnnouncer />
 </template>
 
-<script setup lang="ts">
-
-</script>
+<style>
+@import "./assets/styles/index.css"
+</style>

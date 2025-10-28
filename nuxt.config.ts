@@ -1,3 +1,5 @@
+import tailwindcss from "@tailwindcss/vite";
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
@@ -12,6 +14,10 @@ export default defineNuxtConfig({
           href: "https://avatars.githubusercontent.com/u/146767945?v=4",
         },
       ],
+      title: "me",
     },
+  },
+  vite: {
+    plugins: [tailwindcss()],
   },
 });
